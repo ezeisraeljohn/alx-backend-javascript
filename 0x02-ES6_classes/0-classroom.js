@@ -1,5 +1,4 @@
-
-
+/* eslint-disable */
 /**
  * ClassRoom class to create a class room with a maximum number of students
  * @param {number} maxClassRoom - The maximum number of students in the class room
