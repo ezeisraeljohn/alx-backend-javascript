@@ -1,4 +1,4 @@
-#!/usr/bin/node
+/* eslint-disable */
 
 export class HolbertonClass {
   constructor(year, location) {
