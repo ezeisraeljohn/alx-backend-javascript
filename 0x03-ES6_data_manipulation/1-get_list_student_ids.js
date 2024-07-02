@@ -5,10 +5,7 @@ function getListStudentsIds(lists){
         if (!Array.isArray(lists)){
                 return []
         }
-        const myFunction = (studentlist) => {
-                return studentlist.id;
-        }
-        const ids = lists.map(myFunction);
+        const ids = lists.map((list)=> list.id);
 
         return ids
 }
