@@ -1,14 +1,13 @@
-/*eslint-disable */
+/*eslint-disable*/
 
-function getListStudentsIds(lists){
+function getListStudentsIds(getListStudents){
 
-        if (!Array.isArray(lists)){
+        if (!Array.isArray(getListStudents)){
                 return []
         }
-        const ids = lists.map((list)=> list.id);
+        const ids = getListStudents.map((getListStudent)=> getListStudent.id);
 
         return ids
 }
-
 
 export default getListStudentsIds
